@@ -1,0 +1,11 @@
+2020-08-24 11:34:41:222 [Appium] Welcome to Appium v1.18.0
+2020-08-24 11:34:41:223 [Appium] Non-default server args:
+2020-08-24 11:34:41:224 [Appium]   sessionOverride: true
+2020-08-24 11:34:41:224 [Appium]   logFile: D:\JavaPactice\ApiDemos_Appuim_Assignment\ServerLogs\server.log
+2020-08-24 11:34:41:248 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2020-08-24 11:34:41:697 [HTTP] --> GET /wd/hub/status
+2020-08-24 11:34:41:698 [HTTP] {}
+2020-08-24 11:34:41:701 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2020-08-24 11:34:41:703 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.18.0"}}
+2020-08-24 11:34:41:712 [HTTP] <-- GET /wd/hub/status 200 12 ms - 68
+2020-08-24 11:34:41:713 [HTTP] 

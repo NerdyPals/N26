@@ -1,0 +1,15 @@
+<suite name="AutomationTestSuite">
+	<test name="Monefy Tests" allow-return-values="true">
+	    <listeners>
+			<listener class-name="com.pom.monefy.listeners.TestListener" />
+		</listeners>
+		<classes>
+			<class name="com.pom.monefy.testcases.HomePageTest" />
+			<class name="com.pom.monefy.testcases.IncomePageTest" />
+			<class name="com.pom.monefy.testcases.NewTransferTest" />
+			<class name="com.pom.monefy.testcases.FoodExpenseTest" />
+			<class name="com.pom.monefy.testcases.ExpensePageTest" />
+		</classes>
+	</test>
+</suite>
+

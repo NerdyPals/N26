@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AutomationTestSuite" duration-ms="190106" started-at="2021-09-06T08:09:54Z" finished-at="2021-09-06T08:13:05Z">
+    <groups>
+    </groups>
+    <test name="Monefy Tests" duration-ms="190106" started-at="2021-09-06T08:09:54Z" finished-at="2021-09-06T08:13:05Z">
+      <class name="com.pom.monefy.testcases.NewTransferTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.pom.monefy.testcases.NewTransferTest@4e04a765]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-09-06T13:41:54Z" finished-at="2021-09-06T13:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:com.pom.monefy.testcases.NewTransferTest@4e04a765]" name="beforeMethod" is-config="true" duration-ms="12154" started-at="2021-09-06T13:41:54Z" finished-at="2021-09-06T13:42:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7b78ed6a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pom.monefy.testcases.NewTransferTest@4e04a765]" name="beforeMethod" is-config="true" duration-ms="1277" started-at="2021-09-06T13:42:06Z" finished-at="2021-09-06T13:42:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyNewIncome()[pri:0, instance:com.pom.monefy.testcases.NewTransferTest@4e04a765]" name="verifyNewIncome" duration-ms="1965" started-at="2021-09-06T13:42:07Z" description="Verify that income page should be opened correctly" finished-at="2021-09-06T13:42:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewIncome -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.pom.monefy.testcases.NewTransferTest@4e04a765]" name="afterMethod" is-config="true" duration-ms="839" started-at="2021-09-06T13:42:09Z" finished-at="2021-09-06T13:42:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.pom.monefy.testcases.NewTransferTest@4e04a765]" name="afterClass" is-config="true" duration-ms="47" started-at="2021-09-06T13:42:10Z" finished-at="2021-09-06T13:42:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.pom.monefy.testcases.NewTransferTest -->
+      <class name="com.pom.monefy.testcases.IncomePageTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.pom.monefy.testcases.IncomePageTest@13fee20c]" name="beforeClass" is-config="true" duration-ms="1" started-at="2021-09-06T13:41:20Z" finished-at="2021-09-06T13:41:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:com.pom.monefy.testcases.IncomePageTest@13fee20c]" name="beforeMethod" is-config="true" duration-ms="12139" started-at="2021-09-06T13:41:20Z" finished-at="2021-09-06T13:41:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7b78ed6a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pom.monefy.testcases.IncomePageTest@13fee20c]" name="beforeMethod" is-config="true" duration-ms="1329" started-at="2021-09-06T13:41:32Z" finished-at="2021-09-06T13:41:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyIncomeShoulsNotBeAccepted()[pri:0, instance:com.pom.monefy.testcases.IncomePageTest@13fee20c]" name="verifyIncomeShoulsNotBeAccepted" duration-ms="3569" started-at="2021-09-06T13:41:33Z" description="Verify that if income amount is 0 then user should not be able to add income" finished-at="2021-09-06T13:41:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIncomeShoulsNotBeAccepted -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.pom.monefy.testcases.IncomePageTest@13fee20c]" name="afterMethod" is-config="true" duration-ms="1090" started-at="2021-09-06T13:41:37Z" finished-at="2021-09-06T13:41:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:com.pom.monefy.testcases.IncomePageTest@13fee20c]" name="beforeMethod" is-config="true" duration-ms="11442" started-at="2021-09-06T13:41:38Z" finished-at="2021-09-06T13:41:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7b78ed6a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pom.monefy.testcases.IncomePageTest@13fee20c]" name="beforeMethod" is-config="true" duration-ms="1365" started-at="2021-09-06T13:41:50Z" finished-at="2021-09-06T13:41:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyNewIncome()[pri:1, instance:com.pom.monefy.testcases.IncomePageTest@13fee20c]" name="verifyNewIncome" duration-ms="1813" started-at="2021-09-06T13:41:51Z" description="Verify that income page should be opened correctly" finished-at="2021-09-06T13:41:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewIncome -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.pom.monefy.testcases.IncomePageTest@13fee20c]" name="afterMethod" is-config="true" duration-ms="782" started-at="2021-09-06T13:41:53Z" finished-at="2021-09-06T13:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.pom.monefy.testcases.IncomePageTest@13fee20c]" name="afterClass" is-config="true" duration-ms="36" started-at="2021-09-06T13:41:54Z" finished-at="2021-09-06T13:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.pom.monefy.testcases.IncomePageTest -->
+      <class name="com.pom.monefy.testcases.FoodExpenseTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.pom.monefy.testcases.FoodExpenseTest@783e6358]" name="beforeClass" is-config="true" duration-ms="2" started-at="2021-09-06T13:42:10Z" finished-at="2021-09-06T13:42:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:com.pom.monefy.testcases.FoodExpenseTest@783e6358]" name="beforeMethod" is-config="true" duration-ms="11846" started-at="2021-09-06T13:42:10Z" finished-at="2021-09-06T13:42:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7b78ed6a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pom.monefy.testcases.FoodExpenseTest@783e6358]" name="beforeMethod" is-config="true" duration-ms="2530" started-at="2021-09-06T13:42:22Z" finished-at="2021-09-06T13:42:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyAddedExpense()[pri:0, instance:com.pom.monefy.testcases.FoodExpenseTest@783e6358]" name="verifyAddedExpense" duration-ms="3665" started-at="2021-09-06T13:42:24Z" description="Verify that expense should be added and updated accordingly" finished-at="2021-09-06T13:42:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddedExpense -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.pom.monefy.testcases.FoodExpenseTest@783e6358]" name="afterMethod" is-config="true" duration-ms="705" started-at="2021-09-06T13:42:28Z" finished-at="2021-09-06T13:42:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.pom.monefy.testcases.FoodExpenseTest@783e6358]" name="afterClass" is-config="true" duration-ms="27" started-at="2021-09-06T13:42:29Z" finished-at="2021-09-06T13:42:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.pom.monefy.testcases.FoodExpenseTest -->
+      <class name="com.pom.monefy.testcases.ExpensePageTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.pom.monefy.testcases.ExpensePageTest@17550481]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-09-06T13:42:29Z" finished-at="2021-09-06T13:42:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:com.pom.monefy.testcases.ExpensePageTest@17550481]" name="beforeMethod" is-config="true" duration-ms="12212" started-at="2021-09-06T13:42:29Z" finished-at="2021-09-06T13:42:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7b78ed6a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pom.monefy.testcases.ExpensePageTest@17550481]" name="beforeMethod" is-config="true" duration-ms="1344" started-at="2021-09-06T13:42:41Z" finished-at="2021-09-06T13:42:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyExpenseShouldNotBeAccepted()[pri:0, instance:com.pom.monefy.testcases.ExpensePageTest@17550481]" name="verifyExpenseShouldNotBeAccepted" duration-ms="3318" started-at="2021-09-06T13:42:42Z" description="Verify that if expense amount is 0 then user should not be able to add expense" finished-at="2021-09-06T13:42:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyExpenseShouldNotBeAccepted -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.pom.monefy.testcases.ExpensePageTest@17550481]" name="afterMethod" is-config="true" duration-ms="846" started-at="2021-09-06T13:42:45Z" finished-at="2021-09-06T13:42:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:com.pom.monefy.testcases.ExpensePageTest@17550481]" name="beforeMethod" is-config="true" duration-ms="13960" started-at="2021-09-06T13:42:46Z" finished-at="2021-09-06T13:43:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7b78ed6a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pom.monefy.testcases.ExpensePageTest@17550481]" name="beforeMethod" is-config="true" duration-ms="1395" started-at="2021-09-06T13:43:00Z" finished-at="2021-09-06T13:43:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyExpenseButton()[pri:1, instance:com.pom.monefy.testcases.ExpensePageTest@17550481]" name="verifyExpenseButton" duration-ms="2095" started-at="2021-09-06T13:43:02Z" description="Verify that expense page should be opened correctly" finished-at="2021-09-06T13:43:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyExpenseButton -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.pom.monefy.testcases.ExpensePageTest@17550481]" name="afterMethod" is-config="true" duration-ms="796" started-at="2021-09-06T13:43:04Z" finished-at="2021-09-06T13:43:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.pom.monefy.testcases.ExpensePageTest@17550481]" name="afterClass" is-config="true" duration-ms="30" started-at="2021-09-06T13:43:05Z" finished-at="2021-09-06T13:43:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.pom.monefy.testcases.ExpensePageTest -->
+      <class name="com.pom.monefy.testcases.HomePageTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.pom.monefy.testcases.HomePageTest@64616ca2]" name="beforeClass" is-config="true" duration-ms="203" started-at="2021-09-06T13:39:55Z" finished-at="2021-09-06T13:39:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:com.pom.monefy.testcases.HomePageTest@64616ca2]" name="beforeMethod" is-config="true" duration-ms="10698" started-at="2021-09-06T13:39:55Z" finished-at="2021-09-06T13:40:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7b78ed6a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pom.monefy.testcases.HomePageTest@64616ca2]" name="beforeMethod" is-config="true" duration-ms="213" started-at="2021-09-06T13:40:05Z" finished-at="2021-09-06T13:40:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyAppHeader()[pri:0, instance:com.pom.monefy.testcases.HomePageTest@64616ca2]" name="verifyAppHeader" duration-ms="1001" started-at="2021-09-06T13:40:06Z" description="Verifying the application Header Name" finished-at="2021-09-06T13:40:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAppHeader -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.pom.monefy.testcases.HomePageTest@64616ca2]" name="afterMethod" is-config="true" duration-ms="671" started-at="2021-09-06T13:40:07Z" finished-at="2021-09-06T13:40:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:com.pom.monefy.testcases.HomePageTest@64616ca2]" name="beforeMethod" is-config="true" duration-ms="10698" started-at="2021-09-06T13:40:07Z" finished-at="2021-09-06T13:40:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7b78ed6a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pom.monefy.testcases.HomePageTest@64616ca2]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2021-09-06T13:40:18Z" finished-at="2021-09-06T13:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyIncomeButton()[pri:1, instance:com.pom.monefy.testcases.HomePageTest@64616ca2]" name="verifyIncomeButton" duration-ms="1248" started-at="2021-09-06T13:40:18Z" description="Verify that income button should be present" finished-at="2021-09-06T13:40:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIncomeButton -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.pom.monefy.testcases.HomePageTest@64616ca2]" name="afterMethod" is-config="true" duration-ms="760" started-at="2021-09-06T13:40:19Z" finished-at="2021-09-06T13:40:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:com.pom.monefy.testcases.HomePageTest@64616ca2]" name="beforeMethod" is-config="true" duration-ms="11056" started-at="2021-09-06T13:40:20Z" finished-at="2021-09-06T13:40:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7b78ed6a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pom.monefy.testcases.HomePageTest@64616ca2]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2021-09-06T13:40:31Z" finished-at="2021-09-06T13:40:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyExpenseButton()[pri:2, instance:com.pom.monefy.testcases.HomePageTest@64616ca2]" name="verifyExpenseButton" duration-ms="1245" started-at="2021-09-06T13:40:31Z" description="Verify that Expense button should be present" finished-at="2021-09-06T13:40:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyExpenseButton -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.pom.monefy.testcases.HomePageTest@64616ca2]" name="afterMethod" is-config="true" duration-ms="707" started-at="2021-09-06T13:40:32Z" finished-at="2021-09-06T13:40:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:com.pom.monefy.testcases.HomePageTest@64616ca2]" name="beforeMethod" is-config="true" duration-ms="11070" started-at="2021-09-06T13:40:33Z" finished-at="2021-09-06T13:40:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7b78ed6a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pom.monefy.testcases.HomePageTest@64616ca2]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2021-09-06T13:40:44Z" finished-at="2021-09-06T13:40:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyRightSettingsMenu()[pri:3, instance:com.pom.monefy.testcases.HomePageTest@64616ca2]" name="verifyRightSettingsMenu" duration-ms="2330" started-at="2021-09-06T13:40:44Z" description="Verify that right menu should be opened" finished-at="2021-09-06T13:40:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRightSettingsMenu -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.pom.monefy.testcases.HomePageTest@64616ca2]" name="afterMethod" is-config="true" duration-ms="561" started-at="2021-09-06T13:40:46Z" finished-at="2021-09-06T13:40:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:com.pom.monefy.testcases.HomePageTest@64616ca2]" name="beforeMethod" is-config="true" duration-ms="11504" started-at="2021-09-06T13:40:47Z" finished-at="2021-09-06T13:40:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7b78ed6a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pom.monefy.testcases.HomePageTest@64616ca2]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2021-09-06T13:40:58Z" finished-at="2021-09-06T13:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLeftSettingsMenu()[pri:4, instance:com.pom.monefy.testcases.HomePageTest@64616ca2]" name="verifyLeftSettingsMenu" duration-ms="2896" started-at="2021-09-06T13:40:58Z" description="Verify that Left menu should be opened" finished-at="2021-09-06T13:41:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeftSettingsMenu -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.pom.monefy.testcases.HomePageTest@64616ca2]" name="afterMethod" is-config="true" duration-ms="549" started-at="2021-09-06T13:41:01Z" finished-at="2021-09-06T13:41:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:com.pom.monefy.testcases.HomePageTest@64616ca2]" name="beforeMethod" is-config="true" duration-ms="11652" started-at="2021-09-06T13:41:02Z" finished-at="2021-09-06T13:41:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7b78ed6a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pom.monefy.testcases.HomePageTest@64616ca2]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2021-09-06T13:41:14Z" finished-at="2021-09-06T13:41:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyProPage()[pri:5, instance:com.pom.monefy.testcases.HomePageTest@64616ca2]" name="verifyProPage" duration-ms="4904" started-at="2021-09-06T13:41:14Z" description="Verify that pro page should be opened" finished-at="2021-09-06T13:41:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProPage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.pom.monefy.testcases.HomePageTest@64616ca2]" name="afterMethod" is-config="true" duration-ms="883" started-at="2021-09-06T13:41:19Z" finished-at="2021-09-06T13:41:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.pom.monefy.testcases.HomePageTest@64616ca2]" name="afterClass" is-config="true" duration-ms="587" started-at="2021-09-06T13:41:19Z" finished-at="2021-09-06T13:41:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.pom.monefy.testcases.HomePageTest -->
+    </test> <!-- Monefy Tests -->
+  </suite> <!-- AutomationTestSuite -->
+</testng-results>

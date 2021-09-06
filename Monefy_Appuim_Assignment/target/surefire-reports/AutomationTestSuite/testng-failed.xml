@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [AutomationTestSuite]">
+  <listeners>
+    <listener class-name="com.pom.apidemos.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="ApiDemos Test1(failed)">
+    <classes>
+      <class name="com.pom.apidemos.testcases.Flow2Test">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="flow2Test" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.pom.apidemos.testcases.Flow2Test -->
+      <class name="com.pom.apidemos.testcases.Flow1Test">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="beforeTest"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+          <include name="flow1Test" invocation-numbers="0"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.pom.apidemos.testcases.Flow1Test -->
+    </classes>
+  </test> <!-- ApiDemos Test1(failed) -->
+</suite> <!-- Failed suite [AutomationTestSuite] -->

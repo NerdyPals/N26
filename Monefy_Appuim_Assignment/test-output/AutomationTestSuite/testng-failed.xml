@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AutomationTestSuite]">
+  <listeners>
+    <listener class-name="com.pom.monefy.listeners.TestListener"/>
+  </listeners>
+  <test name="Monefy Tests">
+    <classes>
+      <class name="com.pom.monefy.testcases.HomePageTest"/>
+      <class name="com.pom.monefy.testcases.IncomePageTest"/>
+      <class name="com.pom.monefy.testcases.NewTransferTest"/>
+      <class name="com.pom.monefy.testcases.FoodExpenseTest"/>
+      <class name="com.pom.monefy.testcases.ExpensePageTest"/>
+    </classes>
+  </test> <!-- Monefy Tests -->
+</suite> <!-- Failed suite [AutomationTestSuite] -->
